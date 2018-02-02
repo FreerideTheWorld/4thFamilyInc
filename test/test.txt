@@ -8,3 +8,5 @@ Still trying to get this to work.
 =======
 here's another line of teeexxxxt
 >>>>>>> deed944e25ac3b5e9931b0b9e62b093e4e8106ac
+
+I think I got this.
