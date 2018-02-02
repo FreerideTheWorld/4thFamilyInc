@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+.page-header {
+
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 60%;
+    text-align: left;
+}
+
+.icons {
+    width: 20%;
+    padding-top: 90px;
+    padding-left: 120px;
+    display: inline;
+}
+
+.icons li {
+    display: inline;
+}
+
+.fa-facebook-square {
+    color: @fa-facebook-square: @fa-facebook;
+}
+.fa-instagram {}
+.fa-twitter-square{}
+.fa-linkedin-square{}
+.fa-youtube-square {}
+
+/*
+.donate {
+    width: 20%;
+    padding-top: 65px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}*/
+
+.button {
+    padding-top: 100px;
+}
+
+a.button{
+	cursor: pointer;
+	min-width: 75px;
+	text-align: center;
+    font-size: 28px;
+	font-weight: bold;
+	background-color: #FFCE00;
+	text-decoration: none;
+	color: #fff;
+    padding: 5px 20px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.navbar {
+    height: 455px;
+    width: 100%;
+    text-align: center;
+    background-image: url('../group_picturev1.jpg');
+    background-size: cover;
+    padding-left: ;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar nav ul {
+    width: 100%;
+    list-style: none;
+
+
+}
+
+.navbar nav ul li {
+    float: left;
+    width: 250px;
+    line-height: 55px;
+    text-align: center;
+    display: inline;
+    font-family: Sans-Serif;
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    opacity: .90;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+.navbar nav ul li a:hover {
+    background-color: #40BAFF;
+    width: 100%;
+
+}
+
+.navbar nav ul li ul {
+    position: absolute;
+    display: inherit;
+    width: inherit;
+}
+
+.navbar nav ul li ul li {
+    display: none;
+}
+
+.navbar nav ul li:hover ul li {
+    display: inherit;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+/*.welcome {
+    float: left;
+    width: 100%;
+    height: 448px;
+    background-image: url('../group_picturev1.jpg');
+    background-size: cover;
+
+}*/
+
+.welcome-text {
+    color: black;
+    font-style: sans-serif;
+    background-color: #4BA4DC;
+    border-style: solid;
+}
+
+.welcome-text p {
+
+}
+.welcome-text h1 > p {
+
+}
+
+.welcome-text h3 > p {
+
+}
+
+.STEM-programs {
+    background-color: #E16F10;
+    float: left;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    color: black;
+}
+
+.STEM-programs h1 {
+    font-size: 36px;
+}
+
+.STEM-programs h3 {
+
+}
+
+.STEM-programs {
+
+}
+.events {
+    background-color: #E19352;
+    float: right;
+    width: 50%;
+    height: 450px;
+
+}
+
+.gallery {
+    float: left;
+    width: 100%;
+    height: 550px;
+    background-color: limegreen;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-style: sans-serif;
+    color: black;
+    margin: 30px 0px 50px;
+
+}
+
+.sub-gallery {
+    width: auto;
+}
+
+.gallery img {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 175px;
+    padding: 0px;
+    transition: 1s;
+}
+
+.gallery img:hoover {
+
+
+}
+
+.videos {
+    float: left;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    }
+
+a.videos-button{
+	cursor: pointer;
+	min-width: 75px;
+	text-align: center;
+    font-size: 28px;
+	font-weight: bold;
+	background-color: black;
+	text-decoration: none;
+	color: #fff;
+    padding: 5px 20px;
+	display: inline-block;
+	border-radius: 5px;
+    opacity: .9;
+}
+
+.organizers {
+    float: left;
+    height: 450px;
+    width: 100%;
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.sponsors {
+    float: left;
+    height: 450px;
+    width: 100%;
+    border: solid;
+    border-width: 2px;
+    border-color: orange;
+}
