@@ -254,3 +254,96 @@ a.videos-button{
     border-width: 2px;
     border-color: orange;
 }
+
+.button_submit {
+    float: left;
+}
+
+#submit {
+    padding-top: ;
+}
+
+#a.submit {
+	cursor: pointer;
+	min-width: 75px;
+	text-align: center;
+    font-size: 28px;
+	font-weight: bold;
+	background-color: orange;
+	text-decoration: none;
+	color: #fff;
+    padding: 5px 20px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.getinvolved {
+    float: left;
+    width: 50%;
+    height: 450px;
+}
+
+.information {
+    float: left;
+    width: 50%;
+    height: 450px;
+
+}
+
+.organizers {
+    padding-left: 17.5%;
+
+}
+
+#title_org {
+    width: 100%;
+    text-align: center;
+}
+
+
+.john_scott {
+    float: left;
+    width: 15%;
+
+}
+#john_scott_profile {
+    height: 150px;
+    width: 150px;
+}
+
+.jahkeen_hoke {
+    float: left;
+    width: 15%;
+}
+
+#jahkeen_hoke_profile {
+    height: 150px;
+    width: 150px;
+}
+
+.john_drazan {
+    float: left;
+    width: 15%;
+}
+#John_drazan_profile {
+    height: 150px;
+    width: 150px;
+}
+
+.ana_shaello {
+    float: left;
+    width: 15%;
+}
+#ana_shaello_profile {
+    height: 150px;
+    width: 150px;
+}
+
+.laquana_cooke {
+    float: left;
+    width: 15%;
+}
+#laquana_cooke_profile {
+    height: 150px;
+    width: 150px;
+}
