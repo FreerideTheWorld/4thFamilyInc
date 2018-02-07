@@ -1,11 +1,20 @@
 <<<<<<< HEAD
 * {
   box-sizing: border-box;
-  width: 1280px;
+  width: auto;
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+
 }
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  size: 36px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    size: 22px;
+}
+
 
 .page-header {
 
@@ -60,7 +69,7 @@ a.button{
 	cursor: pointer;
 	min-width: 75px;
 	text-align: center;
-  font-size: 28px;
+  font-size: 22px;
 	font-weight: bold;
 	background-color: #FFCE00;
 	text-decoration: none;
@@ -72,12 +81,8 @@ a.button{
 
 .navbar {
     height: 455px;
-    width: 1280px;
-    text-align: center;
-    background-image: url('../group_picturev1.jpg');
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
+    float: left
 
 }
 
@@ -89,13 +94,12 @@ a.button{
 
 .navbar nav ul li {
     float: left;
-    width: 250px;
-    line-height: 55px;
+    width: 225px;
+    line-height: 45px;
     text-align: center;
     display: inline;
-    font-family: Sans-Serif;
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     background-color: black;
     opacity: .90;
 }
@@ -116,7 +120,7 @@ a.button{
 .navbar nav ul li ul {
     position: absolute;
     display: inherit;
-    width: 1280px;
+    width: 100%;
 }
 
 .navbar nav ul li ul li {
@@ -138,10 +142,17 @@ a.button{
     background-size: cover;
 
 }*/
+.groupPic{
+  height: auto;
+  width: 100%;
+  position:relative;
+  bottom:-40px;
+}
 
 .welcomeBox {
   height: 300px;
   width: 100%;
+  position: inherit;
   font-style: sans-serif;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c8092+0,59aac7+40,59aac7+50,59aac7+60,1c8092+100 */
 background: #1c8092; /* Old browsers */
@@ -201,6 +212,13 @@ h3 {
   height: 80px;
   width: 100%;
   background: black;
+  color: white;
+}
+.whiteBox {
+  float: right;
+  height: 80px;
+  width: 100%;
+  background: white;
 }
 =======
 * {
