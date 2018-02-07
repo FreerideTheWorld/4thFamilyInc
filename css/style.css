@@ -141,7 +141,7 @@ a.button{
 
 .welcomeBox {
   height: 300px;
-  width: 1280px;
+  width: 100%;
   font-style: sans-serif;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c8092+0,59aac7+40,59aac7+50,59aac7+60,1c8092+100 */
 background: #1c8092; /* Old browsers */
@@ -170,10 +170,6 @@ h3 {
   background: -webkit-linear-gradient(top,  #bc6814 0%,#e28340 50%,#e28340 55%,#bc6814 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #bc6814 0%,#e28340 50%,#e28340 55%,#bc6814 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc6814', endColorstr='#bc6814',GradientType=0 ); /* IE6-9 */
-
-
-
-
 }
 .mentoringBox {
     float: right;
@@ -185,12 +181,7 @@ h3 {
     background: -webkit-linear-gradient(top,  #cb9737 0%,#fbbc5d 45%,#fbbc5d 55%,#cb9737 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #cb9737 0%,#fbbc5d 45%,#fbbc5d 55%,#cb9737 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb9737', endColorstr='#cb9737',GradientType=0 ); /* IE6-9 */
-
-
-
-
 ;
-
 }
 
 .sponsorsBox {
@@ -204,14 +195,12 @@ h3 {
   background: linear-gradient(to bottom,  #3b8133 0%,#77a13d 45%,#77a13d 50%,#77a13d 50%,#77a13d 55%,#3b8133 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b8133', endColorstr='#3b8133',GradientType=0 ); /* IE6-9 */
 ;
-
 }
 .footerBox {
   float: right;
   height: 80px;
   width: 100%;
   background: black;
-
 }
 =======
 * {
