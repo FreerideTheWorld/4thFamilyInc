@@ -1,3 +1,17 @@
 hey there!
+<<<<<<< HEAD
 here's another line of teeexxxxt
 and another one
+=======
+<<<<<<< HEAD
+
+Lee-la was here.
+
+
+Still trying to get this to work.
+=======
+here's another line of teeexxxxt
+>>>>>>> deed944e25ac3b5e9931b0b9e62b093e4e8106ac
+
+I think I got this.
+>>>>>>> 1b558ec0a3172ac2838e8107422ade328c9265a9
